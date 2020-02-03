@@ -1,5 +1,6 @@
 package alura.microservice.loja.services;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -10,12 +11,14 @@ import alura.microservice.loja.dto.InfoFornecedorDTO;
 
 @Service
 public class CompraService {
+	
+	@Autowired
+	private RestTemplate client;
 
-	public void realizaCompra(CompraDTO dto) {
+	public void realizaCompra(CompraDTO dto) {		
 		
-		RestTemplate client = new RestTemplate();
 		ResponseEntity<InfoFornecedorDTO> exchange = client.exchange(
-				"http://localhost:8081/info/" + dto.getEndereco().getEstado(), 
+				"http://fornecedor/info/" + dto.getEndereco().getEstado(), 
 				HttpMethod.GET,
 				null,
 				InfoFornecedorDTO.class);
