@@ -1200,3 +1200,39 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 09:31:06.798
+!MESSAGE Preparing classpath changed notification fornecedor
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 09:31:06.801
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 09:31:06.804
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 09:31:06.804
+!MESSAGE buffering callback sts4.classpath.mJjuykIs fornecedor false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 09:31:06.805
+!MESSAGE executing callback sts4.classpath.mJjuykIs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 09:31:06.810
+!MESSAGE executing callback sts4.classpath.mJjuykIs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 09:31:07.009
+!MESSAGE Preparing classpath changed notification fornecedor
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 09:31:07.010
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 09:31:07.017
+!MESSAGE classpath=113 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 09:31:07.020
+!MESSAGE buffering callback sts4.classpath.mJjuykIs fornecedor false 113
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 09:31:07.020
+!MESSAGE executing callback sts4.classpath.mJjuykIs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-03 09:31:07.025
+!MESSAGE executing callback sts4.classpath.mJjuykIs SUCCESS [done]
