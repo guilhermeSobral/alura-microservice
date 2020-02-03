@@ -1,0 +1,5 @@
+package alura.microservice.loja.controllers;
+
+public class CompraController {
+
+}

@@ -1,0 +1,5 @@
+package alura.microservice.loja.dto;
+
+public class EnderecoDTO {
+
+}
